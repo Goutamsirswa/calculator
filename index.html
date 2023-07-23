@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1 class="hading" id="h_1">Calculator</h1> -->
+    <div class="main">
+        
+    <input type="text" value="0" class="input" id="input_Box">
+    
+    <div class="num">
+    <button id="btn_1" class="btn " onclick="getValue(document.getElementById('btn_1').value)" value="1" >1</button>
+    <button id="btn_2" class="btn " onclick="getValue(document.getElementById('btn_2').value)" value="2" >2</button>
+    <button id="btn_3" class="btn " onclick="getValue(document.getElementById('btn_3').value)" value="3" >3</button>
+    <button id="btn_4" class="btn " onclick="getValue(document.getElementById('btn_4').value)" value="4" >4</button>
+    <button id="btn_5" class="btn " onclick="getValue(document.getElementById('btn_5').value)" value="5" >5</button>
+    <button id="btn_6" class="btn " onclick="getValue(document.getElementById('btn_6').value)" value="6" >6</button>
+    <button id="btn_7" class="btn " onclick="getValue(document.getElementById('btn_7').value)" value="7" >7</button>
+    <button id="btn_8" class="btn " onclick="getValue(document.getElementById('btn_8').value)" value="8" >8</button>
+    <button id="btn_9" class="btn " onclick="getValue(document.getElementById('btn_9').value)" value="9" >9</button>
+    <button id="btn_0" class="btn " onclick="getValue(document.getElementById('btn_0').value)" value="0" >0</button>
+    <button id="btn_." class="btn " onclick="getValue(document.getElementById('btn_.').value)" value="." >.</button>
+    <button id="btn_+" class="btn_pls  btn operator" onclick="getValue(document.getElementById('btn_+').value)" value="+" >+</button>
+    <button id="btn_-" class="btn_sbt btn operator" onclick="getValue(document.getElementById('btn_-').value)" value="-" >-</button>
+    <button id="btn_*" class="btn_mlp btn operator" onclick="getValue(document.getElementById('btn_*').value)" value="*" >*</button>
+    <button id="btn_/" class="btn_dvd btn operator" onclick="getValue(document.getElementById('btn_/').value)" value="/" >/</button>
+    <button id="btn_%" class="btn_rmr btn operator" onclick="getValue(document.getElementById('btn_%').value)" value="%" >%</button>
+    <button id="btn_=" class="btn_eql btn operator" onclick="cal_Value()" value="=">=</button>
+    <button id="btn_c" class="btn_clr btn" onclick="clrscr_Value(document.getElementById('btn_c').value)" value="0" >C</button>
+    </div>
+    </div>
+
+    <script src="index-JavaScript.js"></script>
+</body>
+</html> 
